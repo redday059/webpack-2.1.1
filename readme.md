@@ -10,8 +10,9 @@ Development mode:
     open http://localhost:8080/
 
 Production mode:
-    cd dist
     npm run build
+    cd dist
+    http-server -p 3000
     open http://127.0.0.1:3000/
 ```
 
