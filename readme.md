@@ -12,6 +12,7 @@ Development mode:
 Production mode:
     cd dist
     npm run build
+    http-server -p 3000
     open http://127.0.0.1:3000/
 ```
 
@@ -31,3 +32,7 @@ Production mode:
 * externals - for side loading modules (for third party modules)
 * System.import - lazy loading modules
 * dead code elimination
+* loading images
+* loading styles
+* ES6 + Babel
+* hot module replacement (HMR)

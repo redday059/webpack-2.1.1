@@ -1,4 +1,4 @@
-var style = require('./style/globalStyle.css');
+var style = require('./style/style.css');
 // jQuery is included as externals
 import $ from 'jquery'
 
@@ -51,7 +51,7 @@ document.getElementById('loadPage2').addEventListener('click', () => {
         })
 });
 
-$('#content').css('background-color', '#efefef');
+$('#content').css('background-color', '#fff');
 
 if (DEVELOPMENT) {
     if (module.hot) {

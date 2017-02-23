@@ -2,7 +2,7 @@ import Picture from './picture'
 
 const page2 = `
 	<div>
-		<h1>This is page 2</h1>
+		<h1>Page 2</h1>
 		<p>${Picture}</p>
 	</div>
 `;
